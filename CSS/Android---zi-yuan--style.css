@@ -96,7 +96,7 @@
      width: 99.7%;
      height: 25%;
      background-color: rgba(255, 255, 255, 0.3);
-     backdrop-filter: blur(6px);
+     backdrop-filter: blur(9px);
      position: absolute;
      bottom: 0;
  }
@@ -129,6 +129,7 @@
  /* 设置加粗 */
  #bolder {
      font-weight: bolder;
+     color: black;
  }
 
  /* 标题 右 */
@@ -178,6 +179,11 @@
  .text>dl>dd>li>a>img {
      width: 100%;
      margin-top: 10px;
+ }
+
+ .text>dl>dd>ol>li {
+     display: block;
+     font-size: 20px;
  }
 
  /* 内容 结束 */
