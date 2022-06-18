@@ -1,0 +1,277 @@
+/* 清除所有元素的内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 自适应 */
+
+/* PC端  */
+@media screen and (min-width: 960px) {
+
+    /* 背景 */
+    body {
+        background: url(https://s1.328888.xyz/2022/06/09/CXIwO.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%100%;
+        background-attachment: fixed;
+    }
+
+    /* 内容 */
+    #gong-ju,
+    #you-xi,
+    #yu-le {
+        min-width: 960px;
+    }
+
+    /* 让 section 默认 开始 */
+    #gong-ju>.content>section {
+        margin-bottom: 40px;
+    }
+
+    #you-xi>.content>section {
+        margin-bottom: 40px;
+    }
+
+    #yu-le>.content>section {
+        margin-bottom: 40px;
+    }
+
+    /* 让 section 默认 结束 */
+}
+
+/* 平板电脑 */
+@media screen and (max-width: 960px) and (min-width: 750px) {
+
+    /* 背景 */
+    body {
+        background: url(https://s1.328888.xyz/2022/06/11/Cm0re.png);
+        background-repeat: no-repeat;
+        background-size: 100%100%;
+        background-attachment: fixed;
+    }
+
+    /* 内容 */
+    #gong-ju,
+    #you-xi,
+    #yu-le {
+        min-width: 750px;
+
+    }
+
+    .content {
+        min-width: 750px;
+        flex-wrap: wrap;
+    }
+
+    /* 让 section 变成两格 开始 */
+    #gong-ju>.content>section {
+        width: 46%;
+        margin-bottom: 40px;
+    }
+
+    #you-xi>.content>section {
+        width: 46%;
+        margin-bottom: 40px;
+    }
+
+    #yu-le>.content>section {
+        width: 46%;
+        margin-bottom: 40px;
+    }
+
+    /* 让 section 变成两格 结束 */
+}
+
+/* 手机端 */
+@media screen and (max-width: 750px) {
+
+    /* 背景 */
+    body {
+        background: url(https://s1.328888.xyz/2022/06/09/CJhXQ.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%100%;
+        background-attachment: fixed;
+    }
+
+    /* 内容 */
+    #gong-ju,
+    #you-xi,
+    #yu-le {
+        min-width: 200px;
+
+    }
+
+    .content {
+        min-width: 200px;
+        flex-wrap: wrap;
+    }
+
+    /* 让 section 变成一格 开始 */
+    #gong-ju>.content>section {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #you-xi>.content>section {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #yu-le>.content>section {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /* 让 section 变成一格 结束 */
+}
+
+/* 删除下划线 */
+a {
+    text-decoration: none;
+}
+
+/* 导航栏 开始 */
+nav {
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    background-color: black;
+    text-align: center;
+    border: 3px solid rgb(236, 231, 231);
+    border-radius: 15px;
+
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 设置 nav>li  */
+
+nav li {
+    /* 横向显示 */
+    display: inline-block;
+    margin: 10px 0;
+}
+
+nav>ul>li>a {
+    /* 字体大小 */
+    font-size: 30px;
+    /* 字体颜色 */
+    color: gold;
+    /* 字体加粗 */
+    font-weight: bold;
+
+}
+
+/* 导航栏 结束 */
+
+
+/* 内容 开始 */
+
+
+/* 盒子主体 开始 */
+#gong-ju,
+#you-xi,
+#yu-le {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(233, 253, 255, 0.5);
+    border: 3px solid rgb(20, 19, 19);
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.biao-ti {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content>section {
+    width: 23%;
+    height: 220px;
+    border: 3px solid black;
+    border-radius: 10px;
+    /* background-color: rgba(19, 235, 255, 0.5); */
+    position: relative;
+}
+
+/* 盒子主体 结束 */
+
+
+/* 内容开始 */
+/* .content>section>a {} */
+.top {
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    top: 0;
+}
+
+.top>img {
+    width: 100%;
+    height: 95%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bottom {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.bottom>img {
+    width: 33%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* padding-bottom: 2px;
+    padding-left: 2px; */
+    padding: 2px;
+}
+
+.bottom>p {
+    width: 67%;
+    height: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* position: absolute;
+    bottom: 0;
+    right: 1%; */
+}
+
+/* 内容 结束 */
+
+
+/* 返回顶部 开始 */
+#fan-hui {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 1%;
+    bottom: 150px;
+}
+
+/* 返回顶部 结束 */
