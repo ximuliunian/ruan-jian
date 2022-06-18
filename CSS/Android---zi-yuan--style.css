@@ -122,9 +122,10 @@
  }
 
  #left>span {
+     width: 55%;
      float: left;
      padding: 1.5%;
-     font-size: 1.5rem;
+     font-size: 1.2rem;
  }
 
  /* 设置加粗 */
