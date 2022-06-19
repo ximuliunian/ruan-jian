@@ -185,6 +185,8 @@
  .text>dl>dd>ol>li {
      display: block;
      font-size: 20px;
+     padding-left: 50px;
+     text-indent: -45px;
  }
 
  /* 内容 结束 */
