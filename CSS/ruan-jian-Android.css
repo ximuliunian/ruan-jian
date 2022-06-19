@@ -255,11 +255,11 @@ nav>ul>li>a {
     height: 100%;
     font-size: 1.2rem;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-    /* position: absolute;
+    position: absolute;
     bottom: 0;
-    right: 1%; */
+    right: 1%;
 }
 
 /* 内容 结束 */
