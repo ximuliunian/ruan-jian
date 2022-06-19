@@ -1,0 +1,90 @@
+/*搜索框样式*/
+* {
+
+    box-sizing:border-box;
+
+}
+
+div.search {
+
+    padding:10px 0;
+
+}
+
+p {
+		/*盒子*/
+    position:relative;
+
+    width:100%;
+
+    margin:0 auto;
+
+}
+
+input,button {
+
+    border:none;
+
+    outline:none;
+
+}
+
+input {
+
+    width:100%;
+		/*边框长*/
+    height:70px;
+
+    padding-left:13px;
+
+}
+
+button {
+		/*按钮宽*/
+    height:70px;
+
+    width:42px;
+
+    cursor:pointer;
+
+    position:absolute;
+
+}     
+
+.bar input {
+	/*搜索边框粗细  颜色*/
+    border:5px solid #FFFFFF;
+
+    border-radius:5px;
+
+    background:transparent;
+
+    top:0;
+
+    right:0;
+
+}
+
+.bar button {
+
+    background:deeppink;
+
+    border-radius:0 5px 5px 0;
+	/*按钮长*/
+    width:200px;
+    
+    top:0;
+
+    right:0;
+
+}
+
+.bar button:before {
+
+    content:"搜索/刷新";
+
+    font-size:40px;
+
+    color:#F9F0DA;
+
+}
