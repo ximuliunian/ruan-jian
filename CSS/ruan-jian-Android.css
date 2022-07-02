@@ -195,7 +195,8 @@ nav>ul>li>a {
     margin: 0 auto;
     width: 95%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .content>section {
