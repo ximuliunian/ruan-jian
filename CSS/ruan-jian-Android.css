@@ -20,20 +20,14 @@
     /* 内容 */
     #gong-ju,
     #you-xi,
-    #yu-le {
+    #yu-le,
+    #geng-xin,
+    #ye-shu {
         min-width: 960px;
     }
 
     /* 让 section 默认 开始 */
-    #gong-ju>.content>section {
-        margin-bottom: 40px;
-    }
-
-    #you-xi>.content>section {
-        margin-bottom: 40px;
-    }
-
-    #yu-le>.content>section {
+    .content>section {
         margin-bottom: 40px;
     }
 
@@ -54,7 +48,9 @@
     /* 内容 */
     #gong-ju,
     #you-xi,
-    #yu-le {
+    #yu-le,
+    #geng-xin,
+    #ye-shu {
         min-width: 750px;
 
     }
@@ -65,7 +61,7 @@
     }
 
     /* 让 section 变成两格 开始 */
-    #gong-ju>.content>section {
+    .content>section {
         width: 46%;
         margin-bottom: 40px;
     }
@@ -76,6 +72,16 @@
     }
 
     #yu-le>.content>section {
+        width: 46%;
+        margin-bottom: 40px;
+    }
+
+    #geng-xin>.content>section {
+        width: 46%;
+        margin-bottom: 40px;
+    }
+
+    #ye-shu>.content>section {
         width: 46%;
         margin-bottom: 40px;
     }
@@ -97,7 +103,9 @@
     /* 内容 */
     #gong-ju,
     #you-xi,
-    #yu-le {
+    #yu-le,
+    #geng-xin,
+    #ye-shu {
         min-width: 200px;
 
     }
@@ -119,6 +127,16 @@
     }
 
     #yu-le>.content>section {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #geng-xin>.content>section {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #ye-shu>.content>section {
         width: 100%;
         margin-bottom: 40px;
     }
@@ -304,7 +322,7 @@ nav>ul>li>a:hover {
 
 }
 
-#fen-ye>a:hover {
+.ye-shu:hover {
     background-color: aqua;
     color: blue;
 }
