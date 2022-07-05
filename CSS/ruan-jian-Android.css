@@ -124,6 +124,13 @@
     }
 
     /* 让 section 变成一格 结束 */
+
+    /* 让分页不必要的的隐藏 开始 */
+    .yin-cang {
+        display: none;
+    }
+
+    /* 让分页不必要的的隐藏 结束 */
 }
 
 /* 删除下划线 */
@@ -166,6 +173,10 @@ nav>ul>li>a {
 
 }
 
+nav>ul>li>a:hover {
+    color: aqua;
+}
+
 /* 导航栏 结束 */
 
 
@@ -175,7 +186,9 @@ nav>ul>li>a {
 /* 盒子主体 开始 */
 #gong-ju,
 #you-xi,
-#yu-le {
+#yu-le,
+#geng-xin,
+#ye-shu {
     width: 70%;
     margin: 0 auto;
     background-color: rgba(233, 253, 255, 0.5);
@@ -259,7 +272,50 @@ nav>ul>li>a {
     right: 0;
 }
 
+
+/* 最新内容 开始 */
+#geng-xin>section {
+    margin-bottom: 10px;
+}
+
+/* 最新内容 结束 */
+
 /* 内容 结束 */
+
+
+/* 分页栏 开始 */
+#fen-ye {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ye-shu {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+    border: 2px solid #000;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.616);
+    color: black;
+
+}
+
+#fen-ye>a:hover {
+    background-color: aqua;
+    color: blue;
+}
+
+#dang-qian {
+    background-color: rgb(43, 226, 168);
+    color: black;
+
+}
+
+/* 分页栏 结束 */
 
 
 /* 返回顶部 开始 */

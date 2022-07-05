@@ -52,7 +52,7 @@
  /* 手机端 */
  @media screen and (max-width: 750px) {
      body {
-         width: 99.5%;
+         width: 100%;
      }
 
      header {
