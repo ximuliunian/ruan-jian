@@ -73,7 +73,10 @@
  }
 
 
-
+ /* 去除滑动条并且不会失去滑动功能 */
+ body::-webkit-scrollbar {
+     display: none;
+ }
 
 
  html,
@@ -157,9 +160,6 @@
  /* 内容 开始 */
 
  .text {
-     width: 100%;
-     height: auto;
-     /* height: 400px; */
      margin: 0 auto;
      background-color: rgba(233, 253, 255, 0.5);
      border: 3px solid rgb(20, 19, 19);

@@ -156,6 +156,11 @@ a {
     text-decoration: none;
 }
 
+/* 去除滑动条并且不会失去滑动功能 */
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /* 导航栏 开始 */
 nav {
     width: 70%;

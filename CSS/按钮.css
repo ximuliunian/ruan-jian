@@ -18,3 +18,8 @@ button:active {
     background: #FFCC66;
     opacity: 0.5;
 }
+
+/* 去除滑动条并且不会失去滑动功能 */
+body::-webkit-scrollbar {
+    display: none;
+}
